@@ -2,6 +2,12 @@ node_modules/
 dist/
 .vercel/
 .superpowers/
+.local/
+notes/
+scripts/engineering-notes.cjs
+tests/notes.test.cjs
+vercel.json
+.vercelignore
 .env
 .env.*
 !.env.example

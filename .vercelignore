@@ -1,8 +1,0 @@
-.superpowers/
-.git/
-.vercel/
-node_modules/
-dist/
-.env
-.env.*
-*.log

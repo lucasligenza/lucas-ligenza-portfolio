@@ -1,0 +1,20 @@
+/* Native document scrolling drives a fixed camera and reading surface. */
+html{scroll-behavior:auto;scroll-padding-top:0;overflow-x:clip;overflow-anchor:none}
+body{overflow-x:clip;min-height:100%;height:auto}
+main{position:relative;overflow:clip}
+.scene,.departure,.contact{min-height:0;position:relative;pointer-events:none;scroll-margin:0}
+.scene-inner{position:fixed;inset:0 0 auto;min-height:100svh;padding-top:90px;padding-bottom:90px;visibility:hidden;pointer-events:none;overflow:visible;will-change:transform,opacity}
+.scene[data-visible=true] .scene-inner{visibility:visible}
+.scene:not([inert]) .departure-copy,.scene:not([inert]) .destination-copy{pointer-events:auto}
+.destination-copy,.departure-copy{flex-shrink:0;transition:none}
+.ship-label{top:auto;bottom:15svh}.journey-start>span{transform:rotate(-90deg)}
+.journey-status{min-height:65px;background:linear-gradient(transparent,#080f1bf5 36%);gap:16px;align-items:center;flex-wrap:wrap;padding-block:12px}
+.flight-controls{display:flex;gap:6px;margin-left:auto;pointer-events:auto}.flight-controls button{min-height:38px;border:1px solid #485164;color:#c8c4af;background:#0d1623;padding:9px 13px;font:11px Consolas,monospace;border-radius:0}.flight-controls button:first-child{min-width:38px;font-size:20px;padding:4px 10px}.flight-controls button:disabled{opacity:.55;cursor:default;filter:none}.flight-controls button:not(:disabled):hover{border-color:#c6ad70;background:#18212d}
+#shipReadout{margin-left:auto;max-width:330px;line-height:1.5}
+@media(max-width:900px){.journey-status .route-line{display:none}#shipReadout{font-size:9px;max-width:245px}.journey-status{gap:10px}.flight-controls button{padding-inline:10px}}
+@media(max-width:680px){
+ .scene-inner,.contact .scene-inner{padding:34svh 24px 110px;align-items:flex-start}.departure .scene-inner{padding:125px 24px 110px}
+ .journey-status{padding:10px 16px;gap:4px 12px;min-height:82px}#locationReadout{order:0}#shipReadout{order:2;width:100%;max-width:none;margin-left:0;font-size:9px}.flight-controls{order:1}.flight-controls button{min-height:36px;font-size:10px}.flight-controls button:first-child{min-width:36px}
+}
+html[data-reduced=true] .scene-inner{position:relative;inset:auto;visibility:visible;transform:none!important;opacity:1!important;will-change:auto}
+html[data-reduced=true] .ascii-name{transform:none}

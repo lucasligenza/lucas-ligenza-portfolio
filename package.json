@@ -1,0 +1,15 @@
+{
+  "name": "lucas-ligenza-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lucas Ligenza's interactive ASCII galaxy portfolio.",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "test": "node scripts/test.cjs",
+    "prebuild": "npm test",
+    "build": "node scripts/build.cjs",
+    "preview": "node scripts/preview.cjs"
+  }
+}

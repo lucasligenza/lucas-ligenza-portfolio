@@ -1,0 +1,87 @@
+/* Full reading areas use the existing type, palette, and ASCII scenery. */
+.scene-inner{padding-left:4.5vw;padding-right:4.5vw}
+.destination-copy,.projects .destination-copy,.beyond-work .destination-copy,.contact .destination-copy{width:52%;max-width:760px}
+.departure-copy{width:57%;max-width:850px}
+.destination-copy{background:linear-gradient(90deg,#080f1b00,#080f1bc9 12%,#080f1bc9 88%,#080f1b00)}
+.destination-copy h2{margin-bottom:18px}
+.destination-copy .lead{max-width:60ch;font-size:15px;line-height:1.8}
+.departure-manifest{max-width:540px;font-size:14px;line-height:1.75;color:#94a2b1;margin-top:22px}
+.departure-manifest>p{max-width:55ch}
+.departure-manifest dl{display:grid;gap:10px;border-top:1px solid #c6ad7033;padding-top:18px;margin:20px 0 0}
+.departure-manifest dl>div{display:grid;grid-template-columns:105px 1fr;gap:10px}
+.departure-manifest dt{font:11px/1.7 Consolas,monospace;color:#a89974}.departure-manifest dd{margin:0;font:12px/1.7 Consolas,monospace;color:#a8b3bf}
+.intro-copy{max-width:56ch;color:#8f9eaf}
+.intro-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:22px;font:13px/1.5 Consolas,monospace}
+.intro-actions a{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:44px;padding:10px 15px;border:1px solid #64718a;color:#c2cbd5;background:#101b29}
+.intro-actions .primary-action{border-color:#b39b66;color:#e1c994;background:#25251f}
+.intro-actions a:hover{border-color:#cfb77e;background:#29302e}
+.resume-placeholder{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px;margin-top:16px;color:#b5bec9;font:12px/1.7 Consolas,monospace}
+.resume-placeholder>span:last-child{color:#9baaba}
+.departure .journey-start{margin-top:20px;font-size:13px}
+.journey-nav{font-size:12px}#pauseMotion,#destinationsToggle{font-size:11px}
+.intro-role{font-size:15px;line-height:1.6;color:#c5ced6}
+.education-line{font:12px/1.8 Consolas,"Courier New",monospace;color:#9aafa2;margin:-10px 0 24px}
+.engineering-detail{border-top:1px solid #65746c50;margin-top:20px}
+.engineering-detail>h3,.experience-log>h3,.toolbox-line>h3,.experiment-guide>h3,.contact-interests>h3{font:16px/1.5 Consolas,monospace;font-weight:normal;color:var(--accent);margin:0 0 15px}
+.engineering-detail>h3{padding-top:22px}
+.detail-body{font:13px/1.8 Arial,Helvetica,sans-serif;color:#a3afbd;padding:4px 0 12px;overflow-wrap:anywhere}
+.detail-body p+p{margin-top:14px}
+.detail-body .personal-note,.personal-note{font:11px/1.7 Consolas,monospace;color:#8d9da7;margin-top:18px}
+.inline-link,.markdown-note a{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+.inline-link{display:inline-block;margin-top:15px;font-size:12px}
+.project-stack{font:12px/1.8 Consolas,monospace;color:#baa984;margin-top:16px}
+.experience-log{border-top:1px solid #65746c50;padding-top:22px;margin-top:24px}.experience-log ol{padding:0;margin:0;list-style:none}
+.experience-log li{padding:0 0 0 17px;border-left:1px solid #506356;margin-top:23px}.experience-log li:first-child{margin-top:0}
+.experience-heading{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;column-gap:16px;row-gap:4px}.experience-heading h4{font:14px/1.6 Arial,sans-serif;color:#c1d1bf;margin:0}.experience-heading>span{font:11px/1.6 Consolas,monospace;color:#9daa98;white-space:nowrap}
+.experience-log p{font:14px/1.8 Arial,sans-serif;color:#a3afbd;margin-top:7px}.toolbox-line{margin:28px 0}.toolbox-line p{font:13px/1.9 Consolas,monospace;color:#a3b49f}
+.project-selector{flex-wrap:wrap;gap:7px;margin-bottom:22px}.project-selector button{font-size:11px;padding:9px 11px}.project-selector button:hover{border-color:#b29661;color:#d9c59b}
+.project-card{border:1px solid #5d4e3570;background:#101722ed;padding:22px;margin-top:18px}.project-card-header{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-bottom:15px}
+.project-context{font:10px/1.7 Consolas,monospace;color:#a69473}.project-card h3{font:21px/1.35 Consolas,monospace;color:#d5c299;margin:7px 0 0;font-weight:normal}.project-card-header pre{font:11px/1.25 Consolas,monospace;color:#a89975;flex-shrink:0}
+.project-card>p{font:14px/1.85 Arial,sans-serif;color:#a7afba}.project-card>p+p{margin-top:12px}.project-card>.project-stack{font:12px/1.8 Consolas,monospace;color:#bca985}.project-card>.project-footnote{font:11px/1.8 Consolas,monospace;color:#9c967f;margin-top:17px;border-top:1px solid #5d4e354d;padding-top:13px}
+.ascii-build-layout{margin-top:18px}.project-drawing{font:12px/1.4 Consolas,monospace;color:#b7a06e;text-align:center;padding:18px;background:#141a20;margin-bottom:20px;overflow:hidden}
+.project-facts{margin:0}.project-facts dt{color:#c4b38f;font:12px/1.6 Consolas,monospace;margin-top:15px}.project-facts dt:first-child{margin-top:0}.project-facts dd{margin:5px 0 0;font:13px/1.75 Arial,Helvetica,sans-serif}
+.architecture-sketch{font:12px/1.5 Consolas,monospace;color:#b7a06e;padding:16px;margin-top:18px;background:#141a20;border-left:2px solid #655839}
+.engineering-notes{margin-top:32px;border-top:1px solid #51465f;padding-top:23px}
+.engineering-notes .journal-heading{align-items:center;color:#b2a0d2;margin-bottom:12px}
+.engineering-notes h3{font:16px/1.5 Consolas,monospace;font-weight:normal}
+.engineering-notes .journal-heading span{color:#9987b0;white-space:nowrap}
+.experiment-guide,.contact-interests{margin-top:26px}.experiment-guide>p,.contact-interests>p{font:14px/1.8 Arial,sans-serif;color:#a3afbd}
+.contact-channel{display:flex;align-items:center;gap:22px;justify-content:space-between;padding:23px;background:#101c2ae6;border:1px solid #345367;margin:25px 0}.contact-channel h3{font:20px/1.5 Consolas,monospace;color:#bad0d9;font-weight:normal;margin:7px 0 10px}.contact-channel p{font:14px/1.8 Arial,sans-serif;color:#9daebc}.contact-channel pre{font:12px/1.4 Consolas,monospace;color:#7cacc0;flex-shrink:0}.contact-channel .project-context{color:#89a7b7}
+.contact-link{display:inline-block;font:12px/1.8 Consolas,monospace;color:#a4cede;text-decoration:underline;text-underline-offset:4px;margin-top:17px;overflow-wrap:anywhere}.contact-interests{margin-bottom:28px}
+.contact-channel>div{min-width:0}.contact-channel .email-link{font-size:16px;margin-top:0;padding-block:9px;line-height:1.7}
+.contact-channel .channel-hint{font-size:12px;line-height:1.7;margin-top:8px;color:#a0b5c5}
+.contact-profiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.contact-profiles>a{display:flex;flex-direction:column;gap:9px;padding:18px;border:1px solid #345367;background:#101c2ae6;color:#bed7e1;font:15px/1.5 Consolas,monospace}
+.contact-profiles>a:hover{background:#172a3a;border-color:#89acbd}
+.contact-profiles small{font:12px/1.6 Arial,sans-serif;color:#a0b5c5}
+.project-summary{border-block:1px solid #5d4e354d;padding:16px 0;margin-top:16px;color:#a7afba}
+.project-context,#projectStatus,.project-card>.project-footnote{font-size:12px;line-height:1.7;color:#b4a78b}
+.experience-heading>span,.education-line,.personal-orbit-top>span{font-size:12px}
+.notes-empty{font:14px/1.8 Arial,Helvetica,sans-serif;color:#a5a0b5}.notes-topics{font:12px/1.8 Arial,Helvetica,sans-serif;color:#9691a5;margin-top:10px}
+.engineering-note>header{padding-top:20px}.engineering-note>header h4{font:17px/1.5 Consolas,monospace;color:#c0aed7;margin:0 0 8px;font-weight:normal}.engineering-note time{display:inline-block;font:11px/1.6 Consolas,monospace;color:#a39aae}
+.markdown-note h4,.markdown-note h5,.markdown-note h6{font:14px/1.6 Consolas,monospace;color:#c0aed7;margin:22px 0 10px}
+.markdown-note ul{padding-left:20px}.markdown-note li+li{margin-top:6px}.markdown-note pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#151926;padding:14px;margin-block:16px;font:12px/1.6 Consolas,monospace}.markdown-note code{font-family:Consolas,monospace;color:#c6b4d8}
+.personal-orbits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.personal-orbit{padding:20px;border:1px solid #51465f80;background:#101624f0;min-width:0;box-shadow:4px 4px 0 #080f1b}
+.personal-orbit-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;min-height:74px}
+.personal-orbit-top>span{font:10px/1.7 Consolas,monospace;color:#9b8bab;max-width:14ch}
+.personal-orbit pre{font:9px/1.15 Consolas,monospace;color:#ab97c4;flex-shrink:0}
+.personal-orbit:nth-child(2) pre{color:#a7b9a0}.personal-orbit:nth-child(3) pre{color:#88afc5}.personal-orbit:nth-child(4) pre{color:#c2b181}
+.personal-orbit h3{font:17px/1.4 Consolas,monospace;font-weight:normal;color:#cfbfdd;margin:8px 0 12px}
+.personal-orbit p{font:14px/1.8 Arial,sans-serif;color:#a7aabd;overflow-wrap:anywhere}
+@media(min-width:681px) and (max-width:1050px){.personal-orbits{grid-template-columns:1fr}.personal-orbit-top{min-height:60px}}
+@media(max-width:480px){.personal-orbits{grid-template-columns:1fr;gap:14px}.personal-orbit{padding:18px}.personal-orbit-top{min-height:58px}.personal-orbit-top>span{max-width:none}}
+@media(min-width:1500px){.scene-inner{padding-left:5vw;padding-right:5vw}}
+@media(max-width:900px) and (min-width:681px){.scene-inner{padding-left:4vw;padding-right:4vw}.destination-copy,.projects .destination-copy,.beyond-work .destination-copy,.contact .destination-copy{width:55%}.project-card{padding:18px}.project-card-header pre{font-size:9px}.contact-channel{padding:18px;gap:12px}.contact-channel pre{font-size:10px}}
+@media(max-width:680px){.scene-inner{padding-left:24px;padding-right:24px}.destination-copy,.projects .destination-copy,.beyond-work .destination-copy,.contact .destination-copy,.departure-copy{width:100%;max-width:none}.departure .intro-copy{max-width:100%}.departure-manifest{font-size:13px}.departure-manifest dl>div{grid-template-columns:80px 1fr;gap:10px}.departure-manifest dd{font-size:11px}.education-line{font-size:11px}.engineering-notes .journal-heading{gap:8px}.engineering-notes h3{font-size:15px}.project-card{padding:17px}.project-card-header{gap:12px}.project-card h3{font-size:19px}.project-card-header pre{font-size:9px}.experience-heading{display:block}.experience-heading>span{display:block;margin-top:3px}.contact-channel{padding:18px;gap:10px}.contact-channel pre{font-size:9px}.contact-channel h3{font-size:18px}.contact-link{font-size:11px}.project-drawing{font-size:11px}.destination-copy{background:linear-gradient(#080f1b00,#080f1bf5 30px)}}
+@media(max-width:680px){
+ .journey-nav{height:112px;min-height:112px;padding:13px 20px 65px}
+ #destinations{top:112px;z-index:2;background:#111e2d}
+ .intro-role{font-size:13px}.intro-copy{font-size:14px}
+ .intro-actions{gap:8px;font-size:12px}.intro-actions a{padding-inline:12px}
+ .departure-manifest dd,.education-line{font-size:12px}
+ .contact-channel .email-link{font-size:14px}.project-card-header{align-items:flex-start}
+ .project-card-header>div{min-width:0}.project-card-header>.project-context{flex-shrink:0}
+ .personal-orbit-top>span{font-size:11px}
+}
+@media(max-width:380px){.contact-channel pre{display:none}.contact-profiles{grid-template-columns:1fr}.project-card-header pre{font-size:8px}.intro-actions a{padding-inline:10px}}

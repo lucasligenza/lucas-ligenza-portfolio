@@ -55,6 +55,8 @@
 .contact-profiles>a:hover{background:#172a3a;border-color:#89acbd}
 .contact-profiles small{font:12px/1.6 Arial,sans-serif;color:#a0b5c5}
 .project-summary{border-block:1px solid #5d4e354d;padding:16px 0;margin-top:16px;color:#a7afba}
+.project-links{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:14px}
+.project-links .inline-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin-top:0;font:12px/1.6 Consolas,monospace}
 .project-context,#projectStatus,.project-card>.project-footnote{font-size:12px;line-height:1.7;color:#b4a78b}
 .experience-heading>span,.education-line,.personal-orbit-top>span{font-size:12px}
 .notes-empty{font:14px/1.8 Arial,Helvetica,sans-serif;color:#a5a0b5}.notes-topics{font:12px/1.8 Arial,Helvetica,sans-serif;color:#9691a5;margin-top:10px}
